@@ -1,0 +1,61 @@
+/* containing div */
+.footer{
+    width: 100%;
+    background-color: rgb(2, 1, 0);
+    border: 1px solid rgb(197, 150, 20);
+
+    height: auto;
+    position: static;
+    margin-top: 0px;
+}
+
+/* inside div */
+.foot{
+    border: 1px solid rgb(197, 150, 20);
+    margin: 4rem 4rem;
+    display:grid;
+    grid-template:
+    "a b"
+    "a b";
+    grid-template-columns: 40% auto;
+    justify-content: space-between;   
+}
+
+/* contact heading */
+
+.grid1{
+    grid-area: a;
+    font-size: 9rem;
+    margin-left: 2rem;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+/* list items div */
+
+.grid2{
+    grid-area: b;
+    margin-right: 5rem;
+    align-self: center;
+    border-left: 1px solid rgb(11, 44, 32);
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+
+.list-items{
+    position:relative;
+
+    color: rgb(11, 44, 32);
+    font-size: 3rem;
+    list-style: none;
+
+    background-image:
+    linear-gradient(rgb(11, 44, 32) ,rgb(181, 245, 222));
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.9px rgb(11, 44, 32); 
+    text-shadow: 2px 2px 2px rgb(43, 92, 74);  
+}

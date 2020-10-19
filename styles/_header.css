@@ -1,0 +1,24 @@
+/* name in header */
+.top{
+    position: relative;
+    left:10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 2rem;
+    font-size: 1rem;
+    color:rgb(43, 92, 74);   
+}
+
+/* positioning of header */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+}
+
+
+.nav{
+   position: relative;
+   right: 50px;
+}

@@ -1,0 +1,68 @@
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  width: auto;
+  left: 400px;
+  bottom: 500px;
+  margin-bottom: 0px;
+  z-index: 2;
+}
+
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden;
+  width: auto;
+  color: pink;
+  font-family: cursive;
+  font-size: 2rem;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  left: 100px;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+svg{
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  position: relative;
+  /* left: 700px;
+  bottom: 780px; */
+  transform: rotateZ(-40deg);
+  margin: 0 0;
+  color: green;
+  z-index: 2;
+
+}
+
+
+textpath{ 
+  font-size:10px;
+  letter-spacing: 4px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
+path{
+  fill:none; 
+  background-color: green;
+}

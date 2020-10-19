@@ -1,0 +1,122 @@
+.splitview {
+    position: relative;
+    width: auto;
+    height: auto;
+    min-height: 45vw;
+    overflow: hidden;
+}
+
+
+/* both panels */
+.panel {
+    position: absolute;
+    width: 100vw;
+    min-height: 45vw;
+    overflow: hidden;
+}
+
+/* top box */
+.box-1{
+    left:0;
+    background-color: rgb(34, 112, 112);
+    background-image: url(../assets/plant.jpg);
+    
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    width: 70%;  
+    z-index:2;
+}
+
+
+/*  bottom box */
+.box-2{
+    display:grid;
+    background: 
+    linear-gradient(to left,  rgb(0, 8, 5),rgb(0, 8, 5),rgb(0, 8, 5),rgb(0, 8, 5),rgba(31, 70, 55, 0.5)), 
+    url('../assets/Programming.jpg');
+    background-size: contain;
+    z-index:1;
+} 
+
+
+
+.hello{
+    color: white;
+    font-size: 20vw;
+    margin-top: 0;
+    width: auto;
+}
+
+/* content in bottom box/box2 */
+.content{
+    display: grid;
+    grid-template: 
+    "a b";
+    grid-template-columns: 70% auto;
+    /* justify-content: space-between; */
+}
+
+
+/*  text that can be seen initially */
+.intro-text{  
+    grid-area: b;
+
+    position:relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 300px;
+  
+    color: rgb(201, 241, 227);
+    background-image:
+    linear-gradient( rgb(48, 83, 70) , rgb(201, 241, 227),rgb(48, 83, 70) , rgb(201, 241, 227),rgb(48, 83, 70) , rgb(201, 241, 227));
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.9px rgb(11, 44, 32);
+    font-size: 4rem;
+}
+
+/* hidden behind top box on initial load */
+.intro-hidden{
+    grid-area: a;
+    position:relative;
+    top: 60px;
+    left: 170px;
+    width: 30rem;
+
+    background-image:
+    linear-gradient(to left,  rgb(48, 83, 70) , rgb(201, 241, 227),rgb(197, 150, 20));
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgb(1, 12, 8);
+    font-size: 3rem;
+   
+}
+
+
+
+.handle {
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-color: rgb(197, 150, 20);
+    width: 5px;
+    
+    left: 70%;
+    z-index: 3;
+}
+
+/* click text */
+.click{
+    background-image: none;
+    -webkit-text-fill-color: rgb(201, 241, 227);
+    font-size: 1rem;
+    top: 600px;
+}
+
+
+

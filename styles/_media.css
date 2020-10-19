@@ -1,0 +1,53 @@
+@import './media/_media-head.css';
+@import './media/_media-footer.css';
+@import './media/_media-card.css';
+@import './media/_media-intro.css';
+@import './media/_media-skills.css';
+@import './media/_media-projects.css';
+
+
+
+@media only screen and (max-width: 767px) { 
+    *{
+    flex-direction: column;
+        justify-content: center;
+       
+        position: relative;
+        
+    }
+    
+    
+    body{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        top: 0;
+        left:0;
+    }
+
+
+    .link{
+        color: rgb(48, 83, 70);
+    }
+
+   
+    .learn{
+        display: none;
+    }
+
+
+    .tooltip{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+

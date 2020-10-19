@@ -1,0 +1,53 @@
+@media screen and (max-width: 342px) { 
+
+    .item1{
+        display:none;
+    }
+   
+    
+}
+
+
+@media screen and (max-width: 767px) { 
+    
+    /* main div */
+    .main1{
+        width: auto;
+        margin:0 0 ;
+
+    }
+
+
+    .skill{
+        grid-template-columns: auto;
+        width: auto;
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .skills{
+        border: 2px solid rgb(197, 150, 20);
+        border-right: none;
+        text-align: center;
+        
+    }
+ 
+    /* left text /grid area a */
+    .item1{
+        font-size: 3em;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .item1{
+        grid-area: a;
+        
+        color:white;
+        font-size: 15vw;
+    }
+}
+    

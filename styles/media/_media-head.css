@@ -1,0 +1,13 @@
+@media only screen and (max-width: 342px) { 
+/* name at top of page */
+    .header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    /* navigation bar */
+    .nav{
+        right:0px;
+     }
+}

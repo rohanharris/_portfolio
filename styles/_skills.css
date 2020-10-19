@@ -1,0 +1,76 @@
+/* main div */
+.skill{
+   display:grid;
+   grid-template:
+   "a b"
+   "a b";
+    grid-template-columns: 45% auto;
+   
+    margin-top: 2rem;
+    width: 100%;
+    margin-right: 10px;    
+}
+
+
+/* left box */
+.skills{
+    background: 
+    linear-gradient(to right,  rgb(0, 8, 5),rgb(0, 8, 5),rgb(181, 245, 222, 0.5)), 
+    url('../assets/back.jpg');
+   
+    background-size: cover;
+    border: 2px solid rgb(197, 150, 20);
+    border-right: none;
+
+    justify-content: flex-start;
+    text-align: left;
+    width: auto;
+}
+
+/* writing on left */
+.item1{
+    grid-area: a;
+    color:white;
+    font-size: 10rem;
+}
+
+/* writing on right */
+.item2{
+    grid-area: b;
+    
+    color: rgb(179, 241, 221);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0;
+   
+}
+
+/*  skills headings */
+.head{
+    background-image:
+    linear-gradient(to right,  rgb(236, 201, 126) , rgb(201, 241, 227),rgb(48, 83, 70) , rgb(201, 241, 227),rgb(48, 83, 70));
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    
+    margin-bottom: 0;
+}
+
+
+/* item 2 text  */
+.skill-set{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(0, 2, 1);
+
+    border: 2px solid rgb(197, 150, 20)   
+} 
+
+
+/*  containing div */
+.main1{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
