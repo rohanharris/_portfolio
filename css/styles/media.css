@@ -1,9 +1,9 @@
-@import './media/_media-head.css';
-@import './media/_media-footer.css';
-@import './media/_media-card.css';
-@import './media/_media-intro.css';
-@import './media/_media-skills.css';
-@import './media/_media-projects.css';
+@import './media/media-head.css';
+@import './media/media-footer.css';
+@import './media/media-card.css';
+@import './media/media-intro.css';
+@import './media/media-skills.css';
+@import './media/media-projects.css';
 
 
 

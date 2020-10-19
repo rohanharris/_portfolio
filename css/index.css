@@ -1,11 +1,11 @@
-@import './styles/_header.css';
-@import './styles/_intro.css';
-@import './styles/_skills.css';
-@import './styles/_projects.css';
-@import './styles/_card.css';
-@import './styles/_tooltip.css';
-@import './styles/_footer.css';
-@import './styles/_media.css';
+@import './styles/header.css';
+@import './styles/intro.css';
+@import './styles/skills.css';
+@import './styles/projects.css';
+@import './styles/card.css';
+@import './styles/tooltip.css';
+@import './styles/footer.css';
+@import './styles/media.css';
 
 /* element styling */
 p{
