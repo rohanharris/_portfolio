@@ -11,7 +11,7 @@
 
 /* top monsterata leaves */
 .main2{
-    background-image: url('../assets/monst.jpg');
+    background-image: url('../styles/assets/monst.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     height: auto;

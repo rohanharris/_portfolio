@@ -19,7 +19,7 @@
 .box-1{
     left:0;
     background-color: rgb(34, 112, 112);
-    background-image: url(../assets/plant.jpg);
+    background-image: url(../styles/assets/plant.jpg);
     
     background-size: cover;
     background-repeat: none;
@@ -34,7 +34,7 @@
     display:grid;
     background: 
     linear-gradient(to left,  rgb(0, 8, 5),rgb(0, 8, 5),rgb(0, 8, 5),rgb(0, 8, 5),rgba(31, 70, 55, 0.5)), 
-    url('../assets/Programming.jpg');
+    url('../styles/assets/Programming.jpg');
     background-size: contain;
     z-index:1;
 } 

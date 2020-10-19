@@ -16,7 +16,7 @@
 .skills{
     background: 
     linear-gradient(to right,  rgb(0, 8, 5),rgb(0, 8, 5),rgb(181, 245, 222, 0.5)), 
-    url('../assets/back.jpg');
+    url('../styles/assets/back.jpg');
    
     background-size: cover;
     border: 2px solid rgb(197, 150, 20);
