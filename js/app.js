@@ -1,34 +1,36 @@
 ((d,w) => {
-    d.addEventListener('mousedown', function() {
-        let parent = d.querySelector('.splitview'),
-            topPanel = parent.querySelector('.top'),
-            handle = parent.querySelector('.handle'),
+
+    
+    // d.addEventListener('mousedown', function() {
+    //     let parent = d.querySelector('.splitview'),
+    //         topPanel = parent.querySelector('.top'),
+    //         handle = parent.querySelector('.handle'),
            
-            delta = 0;
+    //         delta = 0;
             
 
 
-        parent.addEventListener('mousemove', function(event) {
+    //     parent.addEventListener('mousemove', function(event) {
              
         
                
            
             // Get the delta between the mouse position and center point.
-            delta = (event.clientX - w.innerWidth / 2) * 0.5;
+            // delta = (event.clientX - w.innerWidth / 2) * 0.5;
             
             // Move the handle.
-            handle.style.left = event.clientX + delta + 'px';
+            // handle.style.left = event.clientX + delta + 'px';
 
             // Adjust the top panel width.
-            topPanel.style.width = event.clientX  + delta + 'px';
+            // topPanel.style.width = event.clientX  + delta + 'px';
 
 
        
         
-    });
+    // });
 
       
-    });
+    // });
 
    
 
