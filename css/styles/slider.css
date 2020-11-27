@@ -1,6 +1,8 @@
 .slide{
-    animation: move-in-steps 7s 2;
-    animation-direction: alternate;
+    animation: move-in-steps 3s ;
+    animation-fill-mode: forwards;
+    /* animation-direction: alternate; */
+
 }
 
 @keyframes move-in-steps {
@@ -15,7 +17,7 @@
   }
 
   .handle-slide{
-      animation: move-down 7s 2;
+      animation: move-down 3s 2;
       animation-direction: alternate;
   }
 

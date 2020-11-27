@@ -3,12 +3,16 @@
     let box = d.getElementById('box-1');
     let handle = d.getElementById('handle');
 
+
     let newClass = () => {
      box.classList.add('slide');
-     handle.classList.add('handle-slide')
+     handle.classList.add('handle-slide');
+ 
     };
 
      box.addEventListener('click', newClass);
+
+    //  classList.add('handle-slide');
     // d.addEventListener('mousedown', function() {
     //     let parent = d.querySelector('.splitview'),
     //         topPanel = parent.querySelector('.top'),
