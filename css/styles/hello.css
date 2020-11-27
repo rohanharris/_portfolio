@@ -2,6 +2,7 @@
     color: transparent;
     font-size: 20vw;
     margin-top: 0;
+    margin-bottom: 0;
     width: auto;
     animation: move 3s linear;
     animation-fill-mode: forwards;

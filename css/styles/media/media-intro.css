@@ -21,7 +21,7 @@
 
     /* hello text */
     .hello{
-        font-size: 5vw;
+        /* font-size: 5vw; */
     }
 
     /* bottom box */
@@ -44,10 +44,10 @@
 
 
     /* click text */
-    .click{
+    /* .click{
        
         top: 60px;
-    }
+    } */
 
 
     /* hidden text */
@@ -76,12 +76,12 @@
     
     
     /* click text */
-    .click{
+    /* .click{
         font-size: 2vw;
         
         margin-right: 1vw;
         top:300px
-    }
+    } */
     
     
     /* hidden text */
@@ -110,7 +110,7 @@
     }
   
     .click{
-      background-image: none;
+      /* background-image: none; */
       -webkit-text-fill-color: rgb(201, 241, 227);
       font-size: 1rem;
       top: 420px;
